@@ -1,5 +1,6 @@
 .tooltip {
   margin-left: 10px;
+
   &__btn {
     @include flex-all-center;
     border-radius: 100%;
@@ -28,8 +29,6 @@
   }
 
   &__txt {
-    // width: 251px;
-    // height: 56px;
     padding: 15px 20px;
     font-weight: 400;
     font-size: 16px;
@@ -42,8 +41,10 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    //transform: translate(1166px, 1057px) !important;
   }
 
 
 }
+
+
+

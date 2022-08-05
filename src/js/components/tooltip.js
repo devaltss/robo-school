@@ -10,11 +10,12 @@ createPopper(el, tooltip, {
       name: 'offset',
       options: {
         offset: [0, 10],
-        //offset: [-170, 10], // 320
       },
     },
   ],
 });
+
+
 
 
 

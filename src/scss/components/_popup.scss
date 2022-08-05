@@ -34,7 +34,13 @@
   }
 
   &__image {
+    border-radius: 10px;
     margin-right: 40px;
+
+    & source,
+    & img {
+      border-radius: 10px;
+    }
 
     @include mobile {
       margin-right: 20px;
